@@ -16,7 +16,7 @@ pacman::p_load(
     tidygraph, ggraph
 )
 
-sf::st_use_sf(FALSE)
+sf::sf_use_s2(FALSE)
 
 # 2. US STATES
 
